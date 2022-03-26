@@ -32,18 +32,18 @@ document.querySelector('#type').addEventListener('change', (event) => {
     time.innerHTML = null;
     switch (event.target.value) {
         case '1':
-            time.appendChild(new Option('6 месяцев', '0.2', true));
+            time.appendChild(new Option('6 месяцев', '0.1', true));
             time.appendChild(new Option('1 год', '0.22'));
-            time.appendChild(new Option('1.5 года', '0.15'));
-            time.appendChild(new Option('2 года', '0.10'));
+            time.appendChild(new Option('1.5 года', '0.225'));
+            time.appendChild(new Option('2 года', '0.20'));
             break;
         case '2':
-            time.appendChild(new Option('3 месяца', '0.2', true));
-            time.appendChild(new Option('6 месяцев', '0.22'));
-            time.appendChild(new Option('9 месяцев', '0.23'));
+            time.appendChild(new Option('3 месяца', '0.075', true));
+            time.appendChild(new Option('6 месяцев', '0.11'));
+            time.appendChild(new Option('9 месяцев', '0.1725'));
             time.appendChild(new Option('1 год', '0.24'));
-            time.appendChild(new Option('1.5 года', '0.18'));
-            time.appendChild(new Option('2 года', '0.15'));
+            time.appendChild(new Option('1.5 года', '0.27'));
+            time.appendChild(new Option('2 года', '0.3'));
             break;
     }
 });
